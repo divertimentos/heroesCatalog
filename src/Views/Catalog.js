@@ -15,6 +15,7 @@ function Catalog() {
       .then(response => response.json())
       .then(data => data.results)
       .then(data => setCharacterInfos(data))
+      console.log(characterInfos)
 
   }, [])
 
